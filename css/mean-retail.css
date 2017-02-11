@@ -1,0 +1,129 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Helvetica', sans-serif;
+}
+
+.my-card {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.my-card:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.predefined-margin
+{
+  margin-top:15px;
+}
+
+.margin_bottom
+{
+  margin-bottom: 15px;
+}
+.flex-box
+{
+  display: flex;
+  align-items: center;
+}
+.cursor
+{
+  cursor: pointer;
+}
+
+.flex-box-2
+{
+  display: flex;
+  justify-content: center;
+}
+.div-height
+{
+  height: 200px !important;
+}
+.padding_o
+{
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+
+.navbar-nav>li>a {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+a {
+  color: #CC4A14;
+  text-decoration: none;
+}
+
+
+/* crumbs */
+
+.crumbs .crumb {
+  display: inline-block;
+}
+
+.crumbs .divider {
+  color: #BDBDBD;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.crumbs {
+  border-radius: 5px;
+  padding: 10px;
+  position: relative;
+  margin:5px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+/** category tree **/
+
+.category-tree-wrapper .crumb {
+  display: inline-block;
+}
+
+.category-tree-wrapper .divider {
+  color: #BDBDBD;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.category-tree-wrapper .child-categories {
+  display: inline-block;
+  position: relative;
+}
+
+.category-tree-wrapper .child-arrow {
+  display: inline-block;
+  text-align: right;
+  width: 100px;
+  border: 1px solid #dfdfdf;
+  border-radius: 3px;
+  padding: 2px;
+  cursor: pointer;
+  color: black;
+}
+
+.category-tree-wrapper .child-select {
+  position: absolute;
+  background-color: #fdfdfd;
+  width: 100px;
+  padding: 2px;
+  cursor: pointer;
+  left: 14px;
+  top: 20px;
+  border-bottom: 1px solid #dfdfdf;
+  border-left: 1px solid #dfdfdf;
+  border-right: 1px solid #dfdfdf;
+  border-radius: 3px;
+}
+
+.category-tree-wrapper .child-select div {
+  margin-top: 3px;
+  padding-top: 3px;
+  border-top: 1px solid #ffffff;
+}
+
+
