@@ -52,7 +52,8 @@ function setupAuth(User, app) {
   // Express routes for auth
     app.get('/auth/facebook',
     function(req, res, next) {
-      var redirect = encodeURIComponent(req.query.redirect || '/');
+      var redirect = encodeURIComponent('/#/');
+      console.log(redirect);
 
       passport.authenticate('facebook',
         {
