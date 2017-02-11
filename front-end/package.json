@@ -4,11 +4,6 @@
     "gulp": "3.8.11",
     "gulp-browserify": "0.5.1",
     "http-status": "0.1.8",
-    "karma": "0.12.16",
-    "karma-chai": "0.1.0",
-    "karma-chrome-launcher": "0.1.4",
-    "karma-mocha": "0.1.4",
-    "underscore": "1.5.2",
-    "webpack-dev-server": "^1.8.0"
+    "underscore": "1.5.2"
   }
 }

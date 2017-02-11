@@ -16,7 +16,7 @@ app.use('/api/v1', require('./api')(wagner));
 // For instance, '/6-examples/hello-http.html' in
 // the browser will show the '../6-examples/hello-http.html'
 // file.
-app.use(express.static('../assessment', { maxAge: 4 * 60 * 60 * 1000 /* 2hrs */ }));
+app.use(express.static('../front-end', { maxAge: 4 * 60 * 60 * 1000 /* 2hrs */ }));
 
 app.listen(3000);
 console.log('Listening on port 3000!');
