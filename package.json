@@ -1,4 +1,10 @@
 {
+
+  "name": "mean-stack-app",
+  "version": "1.0.0",
+  "description": "my test mean-stack-app",
+  "author": "divyanshu-rawat",
+  "license": "MIT",
   "dependencies": {
     "body-parser": "1.12.4",
     "express": "4.12.3",
@@ -19,5 +25,8 @@
   "scripts": {
     "watch": "gulp watch",
     "start": "node index.js"
+  },
+  "engines": {
+    "node": "v7.3.0"
   }
 }
