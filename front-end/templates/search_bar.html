@@ -1,0 +1,51 @@
+<!--
+TODO: this HTML should expose a search bar
+!-->
+
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+ 	<div class="form-group has-feedback">
+
+      <label class="control-label">Search Made Easy</label>
+      <input type="text" class="form-control search-bar-input" ng-model = "searchText" placeholder="Search Item" ng-change="update()">
+      		<i class="glyphicon glyphicon-search form-control-feedback"></i>
+
+	</div>
+
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding_o">
+
+	  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 padding_o div-height flex-box-2 predefined-margin" ng-repeat="product in products">
+
+	  <div style="margin:5px;" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 my-card flex-box">
+		  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 padding_o">
+		      <img ng-src="{{product.pictures[0]}}" class="img-responsive" />
+		  </div>
+	    
+		  <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
+			    
+			    <div class="product-name">
+			      <a ng-href="#/product/{{product._id}}">
+			       
+			        <label class="control-label cursor"> {{product.name}}</label>
+			      </a>
+			    </div>
+		    
+			    <div class="product-cost">
+			      
+			      <label class="control-label">{{product.displayPrice}}</label>
+			    </div>
+
+			    <add-to-cart>
+			  
+			    </add-to-cart>
+	  
+	  	  </div>
+
+	  </div>
+
+	  </div>
+	  </div>
+    
+    </div>
+
+</div>

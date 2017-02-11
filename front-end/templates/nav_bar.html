@@ -1,0 +1,64 @@
+
+
+<!--       <div style="border:1px solid red;float:left;position:relative;">
+        <a href="#/category/Books">Divyanshu</a>
+      </div> -->
+
+<nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+            </button>
+
+              <a class="navbar-brand" href="#">
+                 <i class="fa fa-apple" style="color:#5bdb48" aria-hidden="true"></i>
+              </a>
+
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            
+            <ul class="nav navbar-nav" style="margin-top:5px;">
+                  <li>
+                       <a href="/assessment">Cart</a>
+                  </li>
+
+                  <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown">Products
+                    <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#/category/Books">Books</a></li>
+                      <li><a href="#/category/Electronics">Electronics</a></li>
+                      <li><a href="#/category/Phones">Phones</a></li>
+                    </ul>
+                  </li>
+             </ul>
+
+            
+
+             <ul class="nav navbar-nav navbar-right" style="display:inline-block;">
+                <li >
+                  <a href="/auth/facebook?redirect=%2Fassessment%2F%23%2F">
+                    <i class="fa fa-facebook-square fa-2x" aria-hidden="true" style="color:white;"></i>
+                  </a>
+                </li>
+
+               <li ng-show="user.user" >
+                  <a ng-href="#/checkout">
+                    <i class="fa fa-shopping-cart fa-2x" style="color:white;"></i>
+                  </a>
+               </li>
+
+               <li  ng-show="user.user" >
+                <a ng-href="#" class="">
+                  <img  ng-src="{{user.user.profile.picture}}" class="img-responsive" width = "30"/>
+                </a>
+               </li>
+            </ul>
+
+          </div>
+
+        </div>
+      </nav>

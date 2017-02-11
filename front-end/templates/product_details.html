@@ -1,0 +1,37 @@
+<div class="product-details">
+  <div class="crumbs">
+    <div class="crumb" ng-repeat="ancestor in product.category.ancestors">
+      <a ng-href="#/category/{{ancestor}}">
+        {{ancestor}}
+      </a>
+      <div class="divider" ng-hide="$last">
+        /
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 predefined-margin">
+
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 my-card flex-box"  style="padding:15px;" >
+
+    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 padding_o">
+      <img ng-src="{{product.pictures[0]}}" class="img-responsive" />
+    </div>
+    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
+
+      <div>
+        <label for="product.name">{{product.name}}</label>
+      </div>
+      <div>
+        <label for="product.displayPrice">{{product.displayPrice}}</label>
+      </div>
+      <add-to-cart>
+        
+      </add-to-cart>
+    
+    </div>
+
+    </div>
+  </div>
+
+</div>
