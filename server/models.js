@@ -2,7 +2,7 @@ var mongoose = require('mongoose');
 var _ = require('underscore');
 
 module.exports = function(wagner) {
-  mongoose.connect('mongodb://localhost:27017/angular_client');
+  mongoose.connect('mongodb://divyanshu:12345@ds017584.mlab.com:17584/mean_stk');
 
   wagner.factory('db', function() {
     return mongoose;
