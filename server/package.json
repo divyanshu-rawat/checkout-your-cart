@@ -12,15 +12,5 @@
     "superagent": "1.2.0",
     "underscore": "1.5.2",
     "wagner-core": "0.1.0"
-  },
-  "devDependencies": {
-    "gulp": "3.8.11",
-    "gulp-mocha": "2.0.1",
-    "mocha": "2.2.4"
-  },
-  "scripts": {
-    "test": "mocha test.js",
-    "watch": "gulp watch",
-    "start": "node index.js"
   }
 }
