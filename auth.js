@@ -18,7 +18,7 @@ function setupAuth(User, app) {
     {
       clientID: '229655060826139',
       clientSecret: '59b4dd5fb65b01d86962d58ffdd692f6',
-      callbackURL: 'http://localhost:3000/auth/facebook/callback'
+      callbackURL: 'https://mymeanstackapplication.herokuapp.com/auth/facebook/callback'
     },
     function(accessToken, refreshToken, profile, done) {
 
@@ -58,13 +58,13 @@ function setupAuth(User, app) {
       passport.authenticate('facebook',
         {
           scope: ['email'],
-          callbackURL: 'http://localhost:3000/auth/facebook/callback?redirect=' + redirect
+          callbackURL: 'https://mymeanstackapplication.herokuapp.com/auth/facebook/callback?redirect=' + redirect
         })(req, res, next);
     });
 
   app.get('/auth/facebook/callback',
     function(req, res, next) {
-      var url = 'http://localhost:3000/auth/facebook/callback?redirect=' +
+      var url = 'https://mymeanstackapplication.herokuapp.com/auth/facebook/callback?redirect=' +
         encodeURIComponent(req.query.redirect);
       passport.authenticate('facebook', { callbackURL: url })(req, res, next);
     },
