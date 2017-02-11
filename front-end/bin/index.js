@@ -80,7 +80,6 @@ exports.CheckoutController = function($scope, $user, $http) {
       });
   };
 
-  console.log('check');
 
   // For checkout
   Stripe.setPublishableKey('pk_test_MN31ctlcUzbyiWt61YgGnUDN');
@@ -96,7 +95,6 @@ exports.CheckoutController = function($scope, $user, $http) {
     $scope.error = null;
     Stripe.card.createToken($scope.stripeToken, function(status, response) {
       if (status.error) {
-        console.log("bc")
         $scope.error = status.error;
         return;
       }
@@ -107,7 +105,8 @@ exports.CheckoutController = function($scope, $user, $http) {
         }).
         success(function(data) {
 
-          console.log(data);
+          console.log(data.id);
+          $scope.id = data.id;
           $scope.checkedOut = true;
           $user.user.data.cart = [];
         });

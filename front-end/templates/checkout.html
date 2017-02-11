@@ -34,7 +34,7 @@
   </div>
 
   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding_o margin_bottom predefined-margin">
-  <div class="btn btn-primary col-lg-1 padding_o" ng-click="updateCart()" style="margin:5px;">
+  <div class="btn btn-primary col-lg-2 padding_o" ng-click="updateCart()" style="margin:5px;">
     Update Cart
   </div>
  </div>
@@ -47,23 +47,38 @@
       Payment
     </h1>
 
-    <form class="form-inline">
-      <div class="form-group">
-        <label for="Credit Card Number:">Credit Card Number:</label>
-        <input type="text" class="form-control" ng-model="stripeToken.number" />
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding_o">
+        <form class="form-inline">
+          <div class="form-group">
+            <label for="Credit Card Number:">Credit Card Number:</label>
+            <input type="text" class="form-control" ng-model="stripeToken.number" />
+          </div>
+        </form>
+    </div>
+
+  <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 padding_o">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding_o">
+      <div class="btn btn-primary col-lg-4 predefined-margin margin_bottom" ng-click="checkout()" style="margin-bottom:5px;">
+        Check Out
       </div>
-   </form>
+    </div>
+
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding_o">
+      <div ng-show="error" class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+        {{error}}
+      </div>
+      
+      <div ng-show="checkedOut" style="margin-bottom:5px;">
+        <label for="Checkout">Checked out successfully!</label>
+      </div>
+
+       <div ng-show="checkedOut" style="margin-bottom:5px;">
+        <label for="Checkout">Your Transaction Id: {{id}}</label>
+      </div>
+    </div>
+  </div>
 
 
-    <div class="btn btn-primary col-lg-2 predefined-margin margin_bottom" ng-click="checkout()">
-      Check Out
-    </div>
-    <div class="checkout-error" ng-show="error">
-      {{error}}
-    </div>
-    <div class="checkout-success" ng-show="checkedOut" style="margin-bottom:5px;">
-      Checked out successfully!
-    </div>
   </div>
   </div>
 </div>
