@@ -3,12 +3,8 @@
 * High cohesion
 * Loose coupling
 
-##
-
 ## Design Pattern's Used
 * Module Design Pattern
-
-##
 
 ## Demo 
 
