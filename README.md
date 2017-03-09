@@ -1,4 +1,15 @@
 
+## software engineering principles Used
+* High cohesion
+* Loose coupling
+
+##
+
+## Design Pattern's Used
+* Module Design Pattern
+
+##
+
 ## Demo 
 
 * [Live Demo Here !](https://mymeanstackapplication.herokuapp.com)
