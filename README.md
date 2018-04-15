@@ -1,6 +1,8 @@
 
 Software Engineering Principles
+
 High cohesion and Loose Coupling.
+
 Cohesion refers to how closely all the routines in a class or all the code in a routine support a central purpose. Classes that contain strongly related functionality are described as having strong cohesion, and the heuristic goal is to make cohesion as strong as possible.
 
 Technical Stack - 
@@ -52,12 +54,6 @@ URL Live Application
   add products to their cart, and even check out using the stripe API.
 * As a new user, you'll be able to log in with Facebook.Then you'll be able to search for a Book
   You'll be able to add the book to your cart,and then check out with a fake credit card.
-
-##
-
-### Package.json (dependencies)
-  
-* For dependencies refer Package.json.
 
 ##
 
