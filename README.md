@@ -11,6 +11,7 @@ Technical Stack -
 * Node.js
 * Express.js
 * ORM - Mongoose
+* karma, Mocha
 
 Application Integrations (Server Side) -
 * Google OAUTH
@@ -102,14 +103,6 @@ URL Live Application
 ```
 
 * will start a server !
-
-* tip: Facebook oauth will not work until your callback url will point to localhost.
-
-* Better create your own facebook developer app nad register it on https://developers.facebook.com/ and set it's
-  
-  callback url to localhost when testing it in localhost and don't forget to change it in auth.js as well.
-  
-  Feel free to ping me on gitter or create a issue here if you are not been able to figure out how app works !
 
 ##
 
