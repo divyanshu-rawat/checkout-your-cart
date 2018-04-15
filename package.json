@@ -24,7 +24,8 @@
   },
   "scripts": {
     "watch": "gulp watch",
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "mocha test.js"
   },
   "engines": {
     "node": "v7.3.0"
