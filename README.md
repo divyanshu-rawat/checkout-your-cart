@@ -27,6 +27,21 @@ For Rest of the dependencies refer [Package.json](https://github.com/divyanshu-r
 Design Pattern's Used
 * Moduler Design Pattern
 
+Quality Assurance -
+
+Client Side Testing Framework
+* Karma
+
+Server Side Testing Framework
+* Mocha
+
+Devlopment Operations
+CI/CD 
+* Travis
+
+Deployment
+* Heroku
+
 In order to undertand the project it would be great if you are comfortable with
 
 * Experience writing front- and back-end software.
