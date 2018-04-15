@@ -23,6 +23,7 @@ Application Integrations (Client Side) -
 * Browserify
 
 For Rest of the dependencies refer [Package.json](https://github.com/divyanshu-rawat/My-Mean-Stack-Application/blob/master/package.json)
+
 Design Pattern's Used
 * Moduler Design Pattern
 
