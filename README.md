@@ -27,7 +27,7 @@ For Rest of the dependencies refer [Package.json](https://github.com/divyanshu-r
 Design Pattern's Used
 * Moduler Design Pattern
 
-In order to undertand the project it would be great if you have are comfortable with
+In order to undertand the project it would be great if you are comfortable with
 
 * Experience writing front- and back-end software.
 * Basic knowledge of web application architecture.
@@ -37,7 +37,6 @@ In order to undertand the project it would be great if you have are comfortable 
 * MongoDB schema design fundamentals.
 * Building REST APIs with Node.js and Express.
 * Building single page applications with AngularJS.
-* Building mobile apps with the Ionic framework.
 ##
 
 [![Join the chat](https://img.shields.io/badge/gitter-join%20chat%20%E2%86%92-brightgreen.svg)](https://gitter.im/divyanshu001)
