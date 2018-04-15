@@ -1,5 +1,4 @@
 {
-
   "name": "mean-stack-app",
   "version": "1.0.0",
   "description": "my test mean-stack-app",
@@ -10,6 +9,7 @@
     "express": "4.12.3",
     "express-session": "1.11.2",
     "http-status": "0.1.8",
+    "mocha": "^5.1.0",
     "mongoose": "4.0.3",
     "morgan": "1.5.3",
     "passport": "0.2.2",
@@ -25,7 +25,7 @@
   "scripts": {
     "watch": "gulp watch",
     "start": "node index.js",
-    "test": "mocha test.js"
+    "test": "mocha product_category_routes_test.js"
   },
   "engines": {
     "node": "v7.3.0"
