@@ -1,11 +1,13 @@
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/powered-by-responsibility.svg)](https://forthebadge.com)
 
-Software Engineering Principles
+### Software Engineering Principles
+* High cohesion 
+* Loose Coupling.
 
-High cohesion and Loose Coupling.
 
-Cohesion refers to how closely all the routines in a class or all the code in a routine support a central purpose. Classes that contain strongly related functionality are described as having strong cohesion, and the heuristic goal is to make cohesion as strong as possible.
-
-Technical Stack - 
+### Technical Stack 
 * Mongo DB
 * Angular JS
 * Node.js
@@ -13,22 +15,22 @@ Technical Stack -
 * ORM - Mongoose
 * karma, Mocha
 
-Application Integrations (Server Side) -
+### Application Integrations (Server Side) -
 * Google OAUTH
 * Stripe For Payments.
 * OpenExchangeRates Integration.
 * MongoDB Text Search Integration.
 
-Application Integrations (Client Side) -
+### Application Integrations (Client Side) -
 * Gulp
 * Browserify
 
 For Rest of the dependencies refer [Package.json](https://github.com/divyanshu-rawat/My-Mean-Stack-Application/blob/master/package.json)
 
-Design Pattern's Used
+### Design Pattern's Used
 * Moduler Design Pattern
 
-Quality Assurance -
+### Quality Assurance 
 
 Client Side Testing Framework
 * Karma
@@ -36,14 +38,14 @@ Client Side Testing Framework
 Server Side Testing Framework
 * Mocha
 
-Devlopment Operations
-CI/CD 
+### Devlopment Operations CI/CD 
 * Travis
 
-Deployment
+### Deployment
 * Heroku
+* Docker (WIP!)
 
-In order to undertand the project it would be great if you are comfortable with
+### In order to undertand the project it would be great if you are comfortable with
 
 * Experience writing front- and back-end software.
 * Basic knowledge of web application architecture.
@@ -53,6 +55,7 @@ In order to undertand the project it would be great if you are comfortable with
 * MongoDB schema design fundamentals.
 * Building REST APIs with Node.js and Express.
 * Building single page applications with AngularJS.
+
 ##
 
 [![Join the chat](https://img.shields.io/badge/gitter-join%20chat%20%E2%86%92-brightgreen.svg)](https://gitter.im/divyanshu001)
@@ -69,7 +72,7 @@ In order to undertand the project it would be great if you are comfortable with
 
 ##
 
-URL Live Application
+### Access Live Application
 
 [![Live Demo Here](https://img.shields.io/badge/website-up-orange.svg)](https://mymeanstackapplication.herokuapp.com)
 
