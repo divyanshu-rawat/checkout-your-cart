@@ -15,6 +15,8 @@
 * ORM - Mongoose
 * karma, Mocha
 
+##
+
 ### Application Integrations (Server Side) -
 * Google OAUTH
 * Stripe For Payments.
@@ -38,6 +40,8 @@ Client Side Testing Framework
 Server Side Testing Framework
 * Mocha
 
+##
+
 ### Devlopment Operations CI/CD 
 * Travis
 
@@ -56,7 +60,6 @@ Server Side Testing Framework
 * Building REST APIs with Node.js and Express.
 * Building single page applications with AngularJS.
 
-##
 
 [![Join the chat](https://img.shields.io/badge/gitter-join%20chat%20%E2%86%92-brightgreen.svg)](https://gitter.im/divyanshu001)
 [![Contact me on Codementor](https://cdn.codementor.io/badges/contact_me_github.svg)](https://www.codementor.io/divyanshurawat?utm_source=github&utm_medium=button&utm_term=divyanshurawat&utm_campaign=github)
@@ -74,9 +77,8 @@ Server Side Testing Framework
 
 ### Access Live Application
 
-[![Live Demo Here](https://img.shields.io/badge/website-up-orange.svg)](https://mymeanstackapplication.herokuapp.com)
+https://mymeanstackapplication.herokuapp.com
 
-##
 
 ### Description
 
