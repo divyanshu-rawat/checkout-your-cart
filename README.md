@@ -2,6 +2,8 @@
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/powered-by-responsibility.svg)](https://forthebadge.com)
 
+![Alt Text](https://github.com/divyanshu-rawat/Checkout/blob/master/front-end/css/Workflow.gif)
+
 ### Software Engineering Principles
 * High cohesion 
 * Loose Coupling.
