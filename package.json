@@ -16,7 +16,7 @@
     "passport-facebook": "2.0.0",
     "stripe": "3.3.4",
     "superagent": "1.2.0",
-    "underscore": "1.5.2",
+    "underscore": "1.12.1",
     "wagner-core": "0.1.0"
   },
   "devDependencies": {
