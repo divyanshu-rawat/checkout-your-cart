@@ -20,7 +20,7 @@
     "wagner-core": "0.1.0"
   },
   "devDependencies": {
-    "gulp": "3.8.11"
+    "gulp": "4.0.2"
   },
   "scripts": {
     "watch": "gulp watch",
